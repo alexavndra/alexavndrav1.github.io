@@ -19,19 +19,20 @@ body {
     color: #ececec;
     background-color: #333333;
     text-align: center;
-    padding-top: 200rem;
+    padding-top: 80rem;
 }
 
 .description {
     display: inline-block;
+    padding-top: 5rem;
 }
 
 .heading-primary {
-    font-size: 500px;
+    font-size: 3500px;
     color: #4FAE7D;
     letter-spacing: 0.5px;
     font-weight: 500;
-    line-height: 500px;
+    line-height: 3500px;
 }
 
 .main-text-description {
@@ -47,10 +48,10 @@ body {
 }
 
 .footer {
-    font-size: 45px;
+    font-size: 30px;
     color: #F3CA44;
-    line-height: 50px;
-    padding-top: 50rem;
+    line-height: 30px;
+    padding-top: 70rem;
 }
 
 @keyframes typing {
