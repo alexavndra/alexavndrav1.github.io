@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto Mono';
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: #ececec;
+    background-color: #333333;
+    text-align: center;
+    padding-top: 28rem;
+}
+
+.description {
+    display: inline-block;
+}
+
+.heading-primary {
+    font-size: 110px;
+    color: #4FAE7D;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    line-height: 110px;
+}
+
+.main-text-description {
+    overflow: hidden;
+    border-right: .1em solid #ececec;
+    white-space: nowrap;
+    font-size: 35px; 
+    width: 0;
+    animation: typing 4s steps(40, end) forwards, blink 1s infinite;
+    
+    line-height: 40px;
+    padding-top: 1rem;
+}
+
+.footer {
+    font-size: 15px;
+    color: #F3CA44;
+    line-height: 20px;
+    padding-top: 22rem;
+}
+
+@keyframes typing {
+    from {width:0}
+    to {width: 100%}
+}
+
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: #ececec; }
+}
