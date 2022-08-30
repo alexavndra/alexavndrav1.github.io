@@ -19,7 +19,7 @@ body {
     color: #ececec;
     background-color: #333333;
     text-align: center;
-    padding-top: 50rem;
+    padding-top: 200rem;
 }
 
 .description {
@@ -27,11 +27,11 @@ body {
 }
 
 .heading-primary {
-    font-size: 200px;
+    font-size: 500px;
     color: #4FAE7D;
     letter-spacing: 0.5px;
     font-weight: 500;
-    line-height: 200px;
+    line-height: 500px;
 }
 
 .main-text-description {
@@ -47,10 +47,10 @@ body {
 }
 
 .footer {
-    font-size: 15px;
+    font-size: 45px;
     color: #F3CA44;
-    line-height: 20px;
-    padding-top: 22rem;
+    line-height: 50px;
+    padding-top: 50rem;
 }
 
 @keyframes typing {
