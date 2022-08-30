@@ -40,7 +40,7 @@ body {
     white-space: nowrap;
     font-size: 100px; 
     width: 0;
-    animation: typing 4s steps(40, end) forwards, blink 1s infinite;
+    animation: typing 4s steps(35, end) forwards, blink 1s infinite;
     
     line-height: 100px;
     padding-top: 1rem;
